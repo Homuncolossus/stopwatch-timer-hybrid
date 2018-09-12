@@ -13,13 +13,13 @@ Stopwatch and Countdown Timer
 
   Stopwatch
   
-  Start/Stop Button that reflects current state
+    Start/Stop Button that reflects current state
   
-    Reset button to restart
+      Reset button to restart
     
-    Visual indication of current time elapsed in proper time format 00:00:00
+      Visual indication of current time elapsed in proper time format 00:00:00
     
-      minutes, seconds, hundredths
+        minutes, seconds, hundredths
       
   Countdown Timer
   
