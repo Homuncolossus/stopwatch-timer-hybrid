@@ -1,6 +1,8 @@
 # stopwatch-timer-hybrid
 Final project for JavaScript introductory course.
+
 Assignment instructions:
+
 Stopwatch and Countdown Timer
 
   Your final project is to build a combination stopwatch and countdown timer.  The application will allow the user to start either a stopwatch or a countdown timer. Only one timer should be able to run at a time.
