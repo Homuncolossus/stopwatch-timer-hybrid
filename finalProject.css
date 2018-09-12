@@ -1,0 +1,47 @@
+body {
+	max-width: 1024px;
+	width: 80%;
+	margin: 20px auto;
+	border: 20px solid #BDC3C7;
+	padding: 20px;
+	font-family: IBM Plex Sans, sans-serif;
+	font-size: small;
+	font-weight: 400;
+}
+
+div {
+	max-width: 900px;
+	width: 90%;
+	margin: 8px auto;
+}
+
+hr {
+	margin: 20px auto;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#clock {
+	text-align: center;
+}
+
+.clockImg {
+	width: 13.2%;
+}
+
+.left {
+	border-top: 8px solid #000;
+	border-left: 8px solid #000;
+	border-bottom: 8px solid #000;
+}
+
+.right {
+	border-top: 8px solid #000;
+	border-right: 8px solid #000;
+	border-bottom: 8px solid #000;
+}
+
+#timer {
+	display: none;
+}

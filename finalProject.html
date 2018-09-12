@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Final Project</title>
+		<meta charset="utf-8" />
+		<meta name="keywords" content="stopwatch, timer">
+		<meta name="description" content="A stopwatch and timer used to demonstrate the various pieces of JavaScript I have learned in this course.">
+		<meta name="author" content="Alexander Chism">
+		<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="finalProject.css">
+		<script src="finalProject.js"></script>
+	</head>
+
+	<body>
+		<div id="clock">
+			<img id="img0" class="clockImg left" src="images/0.gif"><img id="img1" class="clockImg right" src="images/0.gif">
+			<img id="img2" class="clockImg left" src="images/0.gif"><img id="img3" class="clockImg right" src="images/0.gif">
+			<img id="img4" class="clockImg left" src="images/0.gif"><img id="img5" class="clockImg right" src="images/0.gif">
+		</div>
+		<div>
+			<img id="clockMode" src="images/Stopwatch-Mode.png">
+		</div>
+		<div id="timer">
+			<div>
+				<label class="timerInput">Timer: </label><input id="timerInput" class="timerInput" name="timerInput" type="text">
+			</div>
+			<div id="timerInputValidationMessage">
+				Enter a time less than or equal to 10 minutes but greater than 0 in the form MM:SS:CC, where MM is minutes, SS is seconds, and CC is centiseconds.
+			</div>
+		</div>
+		<div>
+			<img id="setClock" src="images/Reset-Stopwatch.png">
+		</div>
+		<div>
+			<img id="control" src="images/Start.png">
+			<span id="timerNotZero"></span>
+		</div>
+		<div id="unfocus"></div>
+		<hr>
+		<div>
+			<img id="debugSwitch" src="images/Turn-Debug-On.png">
+		</div>
+		<div id="changeClockCount"></div>
+		<div id="clockModeCount"></div>
+		<div id="setClockCount"></div>
+		<div id="controlCount"></div>
+		<div id="debugOutput"></div>
+	</body>
+</html>
