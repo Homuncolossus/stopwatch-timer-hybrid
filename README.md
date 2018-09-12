@@ -29,7 +29,7 @@ Stopwatch and Countdown Timer
       
         minutes, seconds, hundredths
         
-    validate with regex
+      validate with regex
     
     Start/pause button
     
